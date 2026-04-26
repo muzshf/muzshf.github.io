@@ -409,16 +409,16 @@
         <svg viewBox="0 0 64 64"><rect x="8" y="8" width="48" height="48" rx="4" fill="none" stroke="#aab" stroke-width="2"/><path d="M16 24h32M16 32h24M16 40h16" stroke="#aab" stroke-width="2" stroke-linecap="round"/></svg>
       </div>
       <div class="pub-info">
-        <div class="pub-title">[Your CVPR 2026 Paper Title]</div>
-        <div class="pub-authors"><strong>Muzammal Shafique</strong>, [Co-authors], and Khalid M. Malik</div>
+        <div class="pub-title"><strong>ARAN</strong>: Leveraging Foundation Models for Vasculature-Tree-Informed ARtery-Aware Intracranial ANeurysm Detection in 3D CTA and ToF-MRA</div>
+        <div class="pub-authors"><strong>Muzammal Shafique</strong>, Nasir Rahim, Muhammad Saad Saeed, Ghaus Malik, Khalid M. Malik</div>
         <div class="pub-venue">In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2026</div>
         <div class="pub-links">
           <span class="pub-badge badge-cvpr">CVPR 2026</span>
           <button class="pub-btn" onclick="toggleAbs(this)">Abs</button>
-          <a class="pub-btn" href="#">PDF</a>
-          <a class="pub-btn" href="#">Code</a>
+          <!-- <a class="pub-btn" href="#">PDF</a> -->
+          <!-- <a class="pub-btn" href="#">Code</a> -->
         </div>
-        <div class="pub-abstract">[Your abstract here.]</div>
+        <div class="pub-abstract">Computed Tomography Angiography and Time-of-Flight Magnetic Resonance Angiography serve as clinical standards for non-invasive intracranial aneurysm assessment; however, automated detection and precise localization remain significant challenges. Existing computational methods treat aneurysm detection as a binary detection task. Critically, these approaches typically neglect the identification of the parent artery, a vital parameter for hemodynamic rupture risk assessment and surgical planning. To address these limitations, we present ARAN, an ARtery-aware intracranial ANeurysm detection framework that leverages foundation model representations and vascular geometry priors from CTA and ToF-MRA. Our approach combines a finetuned VISTA3D encoder for volumetric feature extraction with a graph-based geometric branch that models artery specific geometric descriptors, including radius profiles, eccentricity, and Frenet-Serret’s curvature-torsion sequences derived from vessel centerlines. The two branches are fused through Geometry-Gated Cross-Attention, enabling geometry-aware modulation of visual features. Experiments on publicly available datasets demonstrate state of-the-art artery-level classification accuracy of 78.2% on CTA and 85.8% on ToF-MRA, outperforming vision-only and geometry-only baselines.</div>
       </div>
     </li>
 
@@ -427,16 +427,16 @@
         <svg viewBox="0 0 64 64"><circle cx="32" cy="32" r="22" fill="none" stroke="#aab" stroke-width="2"/><path d="M22 32a10 10 0 0 1 20 0" stroke="#aab" stroke-width="2" fill="none"/><circle cx="32" cy="28" r="4" fill="#aab"/></svg>
       </div>
       <div class="pub-info">
-        <div class="pub-title">[Your ISBI 2026 Paper Title]</div>
-        <div class="pub-authors"><strong>Muzammal Shafique</strong>, [Co-authors], and Khalid M. Malik</div>
-        <div class="pub-venue">IEEE International Symposium on Biomedical Imaging (ISBI), 2026</div>
+        <div class="pub-title"><strong>FocusSDF</strong>strong>: Boundary-Aware Learning for Medical Image Segmentation via Signed Distance Supervision</div>
+        <div class="pub-authors"><strong>Muzammal Shafique</strong>, Nasir Rahim, Jamil Ahmad, Mohammad Siadat, Khalid Malik, Ghaus Malik</div>
+        <div class="pub-venue">Proceedings of 23rd IEEE International Symposium on Biomedical Imaging (ISBI), 2026</div>
         <div class="pub-links">
           <span class="pub-badge badge-isbi">ISBI 2026</span>
           <button class="pub-btn" onclick="toggleAbs(this)">Abs</button>
-          <a class="pub-btn" href="#">PDF</a>
-          <a class="pub-btn" href="#">Code</a>
+          <a class="pub-btn" href="https://arxiv.org/abs/2511.11864">PDF</a>
+          <!-- <a class="pub-btn" href="#">Code</a> -->
         </div>
-        <div class="pub-abstract">[Your abstract here.]</div>
+        <div class="pub-abstract">Segmentation of medical images constitutes an essential component of medical image analysis, providing the foundation for precise diagnosis and efficient therapeutic interventions in clinical practices. Despite substantial progress, most segmentation models do not explicitly encode boundary information; as a result, making boundary preservation a persistent challenge in medical image segmentation. To address this challenge, we introduce FocusSDF, a novel loss function based on the signed distance functions (SDFs), which redirects the network to concentrate on boundary regions by adaptively assigning higher weights to pixels closer to the lesion or organ boundary, effectively making it boundary aware. To rigorously validate FocusSDF, we perform extensive evaluations against five state-of-the-art medical image segmentation models, including the foundation model MedSAM, using four distance-based loss functions across diverse datasets covering cerebral aneurysm, stroke, liver, and breast tumor segmentation tasks spanning multiple imaging modalities. The experimental results consistently demonstrate the superior performance of FocusSDF over existing distance transform based loss functions.</div>
       </div>
     </li>
 
