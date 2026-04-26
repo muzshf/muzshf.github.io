@@ -384,24 +384,24 @@
   <table class="news-table">
     <tbody>
       <tr>
-        <td>Jun, 2026</td>
+        <td>June 2026</td>
         <td>Presenting our paper at <strong>CVPR 2026</strong> — awarded a <strong>fully sponsored trip</strong> including paper registration. 🎉</td>
       </tr>
       <tr>
-        <td>2026</td>
-        <td>Awarded <strong>University of Michigan Conference Travel Award ($5,000)</strong> to attend and present at <strong>ISBI 2026</strong> in London, UK.</td>
+        <td>April 2026</td>
+        <td>Awarded <strong>University of Michigan Conference Travel Award ($5,000)</strong> to attend and present at <strong>ISBI 2026</strong> in London, UK. 🎉</td>
       </tr>
       <tr>
-        <td>2026</td>
-        <td>Received <strong>$1,000 award</strong> at the <strong>AI in Research Symposium 2026</strong>, one of University of Michigan's most prestigious recognition programs.</td>
+        <td>March 2026</td>
+        <td>Received <strong>$1,000 award</strong> at the <strong>AI in Research Symposium 2026</strong>, one of University of Michigan's most prestigious recognition programs. 🎉</td>
       </tr>
     </tbody>
   </table>
-  <p class="news-more"><a href="#">View all news</a></p>
+  <!-- <p class="news-more"><a href="#">View all news</a></p> -->
 
   <!-- PUBLICATIONS -->
   <h2 id="publications">Selected Publications</h2>
-  <p style="font-size:13px;color:var(--muted);margin-bottom:1rem;">* denotes joint first authors</p>
+  <!-- <p style="font-size:13px;color:var(--muted);margin-bottom:1rem;">* denotes joint first authors</p> -->
 
   <div class="year-heading">2026</div>
   <ol class="pub-list">
@@ -431,14 +431,32 @@
       <div class="pub-info">
         <div class="pub-title"><strong>FocusSDF</strong>strong>: Boundary-Aware Learning for Medical Image Segmentation via Signed Distance Supervision</div>
         <div class="pub-authors"><strong>Muzammal Shafique</strong>, Nasir Rahim, Jamil Ahmad, Mohammad Siadat, Khalid Malik, Ghaus Malik</div>
-        <div class="pub-venue">Proceedings of 23rd IEEE International Symposium on Biomedical Imaging (ISBI), 2026</div>
+        <div class="pub-venue">In Proceedings of the 23rd IEEE International Symposium on Biomedical Imaging (ISBI), 2026</div>
         <div class="pub-links">
           <span class="pub-badge badge-isbi">ISBI 2026</span>
           <button class="pub-btn" onclick="toggleAbs(this)">Abs</button>
-          <a class="pub-btn" href="https://arxiv.org/abs/2511.11864">PDF</a>
+          <a class="pub-btn" href="https://arxiv.org/pdf/2511.11864">PDF</a>
           <!-- <a class="pub-btn" href="#">Code</a> -->
         </div>
         <div class="pub-abstract">Segmentation of medical images constitutes an essential component of medical image analysis, providing the foundation for precise diagnosis and efficient therapeutic interventions in clinical practices. Despite substantial progress, most segmentation models do not explicitly encode boundary information; as a result, making boundary preservation a persistent challenge in medical image segmentation. To address this challenge, we introduce FocusSDF, a novel loss function based on the signed distance functions (SDFs), which redirects the network to concentrate on boundary regions by adaptively assigning higher weights to pixels closer to the lesion or organ boundary, effectively making it boundary aware. To rigorously validate FocusSDF, we perform extensive evaluations against five state-of-the-art medical image segmentation models, including the foundation model MedSAM, using four distance-based loss functions across diverse datasets covering cerebral aneurysm, stroke, liver, and breast tumor segmentation tasks spanning multiple imaging modalities. The experimental results consistently demonstrate the superior performance of FocusSDF over existing distance transform based loss functions.</div>
+      </div>
+    </li>
+
+    <li class="pub-item">
+      <div class="pub-thumb">
+        <svg viewBox="0 0 64 64"><rect x="8" y="8" width="48" height="48" rx="4" fill="none" stroke="#aab" stroke-width="2"/><path d="M16 24h32M16 32h24M16 40h16" stroke="#aab" stroke-width="2" stroke-linecap="round"/></svg>
+      </div>
+      <div class="pub-info">
+        <div class="pub-title"><strong>CrossStream-Seg</strong>: A Cross-Guided Two-Stream Learning for Boundary-Sensitive ROI Segmentation</div>
+        <div class="pub-authors"> Nasir Rahim, <strong>Muzammal Shafique</strong>, Ghaus Malik, Khalid M. Malik</div>
+        <div class="pub-venue">In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2026</div>
+        <div class="pub-links">
+          <span class="pub-badge badge-cvpr">CVPR 2026</span>
+          <button class="pub-btn" onclick="toggleAbs(this)">Abs</button>
+          <!-- <a class="pub-btn" href="#">PDF</a> -->
+          <!-- <a class="pub-btn" href="#">Code</a> -->
+        </div>
+        <div class="pub-abstract">Accurate region of interest segmentation in medical images requires both precise local boundary modeling and sufficient global contextual understanding, yet existing architectures often emphasize one at the expense of the other. We propose CrossStream-Seg, a boundary-sensitive ROI encoder built on a cross-guided two-stream encoder module that integrates ResNet-based local representation learning and Vision Mamba-based global contextual modeling. To enable effective interaction between the two streams, we introduce a Cross-Gated Stage Fusion Module, which performs feature alignment, selective cross-stream refinement, and fused multi-scale feature generation throughout the encoder hierarchy. The resulting features are decoded through a shared segmentation pathway and trained with boundary-aware signed-distance supervision to improve geometric consistency near challenging boundaries. The proposed design remains lightweight and structurally simple while explicitly addressing both representation alignment and boundary sensitivity. Experimental results on cerebral aneurysm in DSA, stroke in MRI, and breast tumor in ultrasound imaging modalities show that CrossStream-Seg consistently improves both overlap-based and boundary-aware metrics over counterpart baselines including convolution and transformer-based models. The results indicate that combining structured local-global feature interaction with boundary-aware geometric supervision provides a robust and general framework for medical region of interest segmentation.</div>
       </div>
     </li>
 
@@ -449,7 +467,7 @@
 
   <div class="award-item">
     <svg class="award-icon" viewBox="0 0 24 24"><path d="M12 2l2.9 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l7.1-1.01L12 2z"/></svg>
-    <div class="award-text"><strong>CVPR 2026 Fully Sponsored Trip</strong> — Awarded full paper registration and travel sponsorship to present research at CVPR 2026 (June, Nashville).</div>
+    <div class="award-text"><strong>CVPR 2026 Fully Sponsored Trip</strong> — Awarded full paper registration and travel sponsorship to present research at CVPR 2026 (Denver, Colorado).</div>
   </div>
 
   <div class="award-item">
@@ -479,7 +497,7 @@
 
   <div class="award-item">
     <svg class="award-icon" viewBox="0 0 24 24"><path d="M12 2l2.9 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l7.1-1.01L12 2z"/></svg>
-    <div class="award-text"><strong>Russian Government Scholarship 2023</strong> — Offered a fully funded scholarship for Masters in Artificial Intelligence (declined to pursue MS at University of Michigan).</div>
+    <div class="award-text"><strong>Russian Government Scholarship 2023</strong> — Offered a fully funded scholarship for Masters in Artificial Intelligence.</div>
   </div>
 
 </div>
